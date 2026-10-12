@@ -8,7 +8,7 @@
 
 .el--3 {
   background-color: green;
-  height: 150px;
+  /* height: 150px; */
 }
 
 .el--4 {
@@ -33,6 +33,7 @@
 
 .container {
   /* ALAP */
+  height: 250px;
   font-family: sans-serif;
   background-color: #ddd;
   font-size: 40px;
@@ -40,5 +41,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-start;
+gap: 20px;
 }
